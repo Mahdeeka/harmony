@@ -1,0 +1,419 @@
+/* body{
+    background-color: red;
+} */
+/* About Section Styling */
+.about-section {
+    background-color: #016D47; /* Matches the green background */
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Image Styling */
+.image-container {
+    flex: 1;
+    max-width: 70%;
+    text-align: center;
+}
+
+.image-container img {
+    /* width: 100%;
+    max-width: 400px; Restrict max size */
+    /* border-radius: 8px; Optional rounded corners */
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); Optional shadow */
+    width: 784px;
+    height: 450px;
+}
+
+.image-container figcaption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #f47c28; /* Orange text for the caption */
+}
+
+/* Text Styling */
+.text-container {
+    flex: 1;
+    max-width: 40%;
+    color: #EFDDCE; /* Light beige text */
+}
+
+.text-container h1 {
+    font-size: 32px;
+    color: #EFDDCE;
+    margin-bottom: 20px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Hero Image Section */
+.hero-image-section {
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-image-section .hero-image {
+    /* width: 80%;
+    height: 100%; */
+    top: 1163px;
+    left: 0px;
+    width: 1450px;
+    height: 608px;
+    display: block;
+}
+/* Goals Section */
+.goals-section {
+    background-color: #EFDDCE; /* Beige background */
+    /* padding: 40px 20px; */
+}
+
+.goals-section .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/* Image Styling */
+.goals-section .image-container img {
+    width: 100%;
+    max-width: 500px; /* Set maximum width for the image */
+    border: none; /* Remove any border */
+    box-shadow: none; /* Remove any shadow */
+    margin: 0; /* Ensure no margin around the image */
+}
+
+/* Text Styling */
+.goals-section .text-container {
+    flex: 1;
+    max-width: 50%;
+    text-align: right;
+    color: #016D47; /* Dark green */
+}
+
+.goals-section .text-container h1 {
+    font-size: 28px;
+    color: #016D47;
+    margin-bottom: 20px;
+}
+
+.goals-section .text-container p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #016D47;
+}
+
+
+/* Vision Section */
+.vision-section {
+    background-color: #EFDDCE; /* Beige background */
+    padding: 40px 20px;
+}
+
+.vision-section .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.vision-block {
+    flex: 1;
+    max-width: 45%;
+    background-color: #EFDDCE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.vision-block h2 {
+    font-size: 24px;
+    color: #2c7a5d; /* Dark green text */
+    margin-bottom: 15px;
+}
+
+.vision-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+.vision-block .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c7a5d; /* Dark green button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vision-block .button:hover {
+    background-color: #f47c28; /* Orange on hover */
+}
+
+/* Call-To-Action Section */
+.cta-section {
+    background-color: #2c7a5d; /* Dark green background */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta-section .cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.cta-section p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cta-section .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f47c28; /* Orange button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #EFDDCE; /* White on hover */
+    color: #2c7a5d; /* Dark green text */
+}
+
+/* Goals & Vision Section */
+.goals-vision-section {
+    background-color: #EFDDCE; /* Beige background */
+    padding: 40px 20px;
+}
+
+.goals-vision-section .content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.goals-block,
+.vision-block {
+    flex: 1;
+    max-width: 45%;
+    padding: 20px;
+    background-color: #EFDDCE; /* White background for blocks */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: right;
+}
+
+.goals-block h2,
+.vision-block h2 {
+    font-size: 24px;
+    color: #2c7a5d; /* Dark green text */
+    margin-bottom: 15px;
+}
+
+.goals-block p,
+.vision-block p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #4a4a4a; /* Dark gray text */
+    margin-bottom: 20px;
+}
+
+.vision-block .join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2c7a5d; /* Dark green button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vision-block .join-button:hover {
+    background-color: #f47c28; /* Orange hover effect */
+}
+/* Call-To-Action Section with Background Image */
+.cta-section {
+    background-image: url('img/discussion.png'); /* Replace with the actual image path */
+    background-size: contain; /* Ensures the image fits within the section */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image horizontally and vertically */
+    background-color: #EFDDCE; /* Fallback background color if the image fails to load */
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px; /* Increased padding for better spacing */
+    position: relative; /* To add a dark overlay */
+    z-index: 1;
+    overflow: hidden;
+}
+
+.cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(44, 122, 93, 0.85); Dark green overlay with opacity */
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+.cta-section .cta-container {
+    max-width: 800px;
+    margin: 0 auto;
+    z-index: 1; /* Ensure the text and button are above the overlay */
+}
+
+.cta-section .cta-content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.cta-section .cta-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.cta-section .cta-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #f47c28; /* Orange button */
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-section .cta-button:hover {
+    background-color: #fff; /* White hover effect */
+    color: #2c7a5d; /* Dark green text */
+}
+
+
+.image-container2 {
+    position: relative;
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFDDCE;
+}
+
+.image-container2 img {
+    display: block;
+    max-width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.content-overlay2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EFDDCE;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content-overlay2 h1 {
+    font-size: 36px;
+    margin: 0 0 10px;
+}
+
+.content-overlay2 p {
+    font-size: 18px;
+    margin: 0 0 20px;
+}
+
+.cta-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #EFDDCE;
+}
+
+.cta-container img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.cta-content {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    color: #f8e5d8;
+    text-align: right;
+    max-width: 40%;
+}
+
+.cta-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cta-content p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #2a6c4f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #1d4e3a;
+}
